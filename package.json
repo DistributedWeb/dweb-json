@@ -1,0 +1,30 @@
+{
+  "name": "dweb-json",
+  "description": "Library for parsing dWeb metadata in dweb.json files.",
+  "version": "1.0.0",
+  "author": "Joe Hand <joe@hand.email>",
+  "bugs": {
+    "url": "https://github.com/joehand/dat-json/issues"
+  },
+  "devDependencies": {
+    "dwebfs": "^1.1.0",
+    "random-access-memory": "^3.1.1",
+    "standard": "^12.0.1",
+    "tape": "^4.10.1"
+  },
+  "homepage": "https://github.com/joehand/dat-json",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joehand/dat-json.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  },
+  "dependencies": {
+    "dweb-encoding": "^1.0.0",
+    "toiletdb": "^1.4.1"
+  }
+}
